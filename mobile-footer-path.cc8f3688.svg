@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="360px" height="580px" viewBox="0 0 360 580" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Bg</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mobile-version" transform="translate(0.000000, -3484.000000)" fill="#0C2763" fill-rule="nonzero">
+            <g id="Footer" transform="translate(-779.000000, 3439.000000)">
+                <g id="Bg">
+                    <path d="M1.55406027,90.9919847 C82.4456914,123.069456 194.889745,125.710252 338.886222,98.9143717 C554.880938,58.7205517 815.079524,29.3456691 1016.19441,121.116108 C1217.3093,212.886547 1441.14072,285.04026 1732.08664,110.693676 C1926.05059,-5.53737946 1967.4214,-30.234356 1856.19907,36.6027469 L0,36.6027469" id="Path" transform="translate(958.500000, 108.500000) scale(-1, -1) translate(-958.500000, -108.500000) "></path>
+                    <rect id="Rectangle-4" transform="translate(881.500000, 402.500000) scale(-1, 1) translate(-881.500000, -402.500000) " x="1" y="180" width="1761" height="445"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

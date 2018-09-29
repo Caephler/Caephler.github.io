@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="509px" height="1097px" viewBox="0 0 509 1097" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="85.3553391%" y1="14.6446609%" x2="14.6446609%" y2="85.3553391%" id="linearGradient-1">
+            <stop stop-color="#123075" offset="0%"></stop>
+            <stop stop-color="#092056" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dark-Blue-Full" transform="translate(0.000000, -1044.000000)" fill="url(#linearGradient-1)">
+            <g id="API-Left-Tri" transform="translate(-1941.000000, 488.000000)">
+                <path d="M1614.57667,230.008321 C2127.46941,742.901065 2396.36393,1011.79558 2421.26021,1036.69187 C2458.60464,1074.03629 2458.60464,1134.58357 2421.26021,1171.928 L1686.928,1906.26021 C1649.58357,1943.60464 1589.03629,1943.60464 1551.69187,1906.26021 L745.008321,1099.57667 C707.663893,1062.23224 707.663893,1001.68496 745.008321,964.340533 L1479.34053,230.008321 C1516.68496,192.663893 1577.23224,192.663893 1614.57667,230.008321 Z" id="Rectangle-4"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,28 @@
+<svg width="109px" height="108px" viewBox="0 0 109 108" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-15.5%" y="-16.0%" width="121.4%" height="184.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Web-Main" transform="translate(-1322.000000, -1146.000000)" fill-rule="nonzero">
+            <g id="Coins-Info" transform="translate(110.000000, 1113.000000)">
+                <g id="LTC" filter="url(#filter-1)" transform="translate(1171.000000, 0.000000)">
+                    <g id="Logo" transform="translate(45.000000, 35.000000)">
+                        <ellipse id="Oval" fill="#B5B5B5" cx="50.135" cy="49.72" rx="50.135" ry="49.72"></ellipse>
+                        <polygon id="Shape" fill="#FFFFFF" points="32.4294289 73.3762526 35.8333316 58.9312842 31.6642105 60.6845684 33.3265816 53.2265684 37.6540237 51.4471158 43.5910632 26.1684211 57.3913816 26.1684211 53.3805816 44.8526737 58.8954316 42.9162105 57.3649947 49.9816842 51.9556921 52.0751579 49.5808763 63.4322526 70.9542184 63.4322526 68.3419211 73.3762526"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

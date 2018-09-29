@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="360px" height="651px" viewBox="0 0 360 651" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Bg</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#123075" offset="0%"></stop>
+            <stop stop-color="#092056" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mobile-version">
+            <g id="Header" transform="translate(-1436.000000, -1226.000000)">
+                <g id="Bg">
+                    <rect id="Rectangle-4" fill="url(#linearGradient-1)" transform="translate(1064.195706, 1184.195706) rotate(45.000000) translate(-1064.195706, -1184.195706) " x="311.695706" y="431.695706" width="1505" height="1505" rx="100"></rect>
+                    <rect id="Rectangle" fill="#1A47B0" opacity="0.100000001" style="mix-blend-mode: screen;" transform="translate(981.711904, 1440.711904) rotate(45.000000) translate(-981.711904, -1440.711904) " x="354.711904" y="813.711904" width="1254" height="1254" rx="100"></rect>
+                    <rect id="Rectangle" fill="#1A47B0" opacity="0.100000001" style="mix-blend-mode: screen;" transform="translate(1062.711904, 886.711904) rotate(45.000000) translate(-1062.711904, -886.711904) " x="435.711904" y="259.711904" width="1254" height="1254" rx="100"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
