@@ -29371,7 +29371,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
   enterModule && enterModule(module);
 })();
 
-const gradient = 'linear-gradient(90deg, #FF0063 -30%, #FF601E 100%)';
+const gradient = 'linear-gradient(-135deg, #4041E2 0%, #7474DB 100%)';
 
 const Container = _glamorous2.default.div({
   position: 'relative'
@@ -29398,6 +29398,13 @@ const MainCircle = _glamorous2.default.div({
     height: '300px',
     width: '300px',
     borderRadius: '150px'
+  },
+  '@media (max-width: 768px)': {
+    height: '400px',
+    width: '400px',
+    borderRadius: '200px',
+    marginRight: '2rem',
+    marginLeft: 'auto'
   }
 });
 
@@ -29447,14 +29454,14 @@ const Circles = () => _react2.default.createElement(
       ),
       _react2.default.createElement(
         'p',
-        { className: 'is-hidden-touch' },
+        { className: 'is-hidden-touch has-text-white' },
         'Introducing the new LinQ payments.',
         _react2.default.createElement('br', null),
         'We take care of the all the difficult parts so that you can focus on receiving payments.'
       ),
       _react2.default.createElement(
         'p',
-        { className: 'is-hidden-desktop' },
+        { className: 'is-hidden-desktop has-text-white' },
         'All we have to do is just follow the steps and become a merchant instantly!'
       ),
       _react2.default.createElement('hr', { className: 'is-invisible is-hidden-touch' }),
@@ -29463,7 +29470,7 @@ const Circles = () => _react2.default.createElement(
         null,
         _react2.default.createElement(
           'button',
-          { className: 'button is-success is-rounded' },
+          { className: 'button is-secondary is-rounded' },
           'Get Started'
         )
       )
@@ -29558,9 +29565,14 @@ const HeroContainer = _glamorous2.default.div({
   backgroundImage: `url(${_bgDesktop2.default})`,
   backgroundSize: 'cover',
   backgroundRepeat: 'no-repeat',
+  minHeight: '60vh',
+  '@media(min-width: 1200px)': {
+    minHeight: '100vh'
+  },
   '@media(max-width: 768px)': {
     backgroundImage: `url(${_bgMobile2.default})`,
-    backgroundSize: 'cover'
+    backgroundSize: 'cover',
+    minHeight: '300px'
   },
   '@media(min-width: 769px) and (max-width: 989px)': {
     backgroundImage: `url(${_bgMobile2.default})`,
@@ -29637,7 +29649,7 @@ const Hero = ({ toggleMenuShown }) => _react2.default.createElement(
             _ResponsiveTitle2.default,
             {
               desktop: '1',
-              className: 'has-text-blue' },
+              className: 'has-text-primary lightweight' },
             'Faster and more secure',
             _react2.default.createElement('br', null),
             'Easier than ever.'
@@ -29855,7 +29867,7 @@ const FeatureSet = () => _react2.default.createElement(
         { className: 'media-left' },
         _react2.default.createElement(
           'div',
-          { className: 'icon has-text-blue' },
+          { className: 'icon has-text-primary' },
           _react2.default.createElement('i', { className: feature.icon })
         )
       ),
@@ -29989,7 +30001,7 @@ const SellingPointSection = () => _react2.default.createElement(
         { className: 'column is-4' },
         _react2.default.createElement(
           HugeTitle,
-          { className: 'has-text-blue' },
+          { className: 'has-text-primary' },
           '1.5%'
         ),
         _react2.default.createElement(
@@ -30035,7 +30047,7 @@ const SellingPointSection = () => _react2.default.createElement(
       { className: 'column' },
       _react2.default.createElement(
         HugeTitle,
-        { className: 'has-text-blue' },
+        { className: 'has-text-secondary' },
         '1.5%'
       ),
       _react2.default.createElement(
@@ -30114,12 +30126,12 @@ const Box = _glamorous2.default.div({
     borderBottomLeftRadius: right ? '200px' : 0,
     borderTopRightRadius: left ? '80px' : 0,
     borderBottomRightRadius: left ? '80px' : 0,
-    backgroundColor: '#102F6F'
+    backgroundImage: `linear-gradient(${left ? -90 : 90}deg, #20E3E4 0%, #0B537A 100%)`
   };
 });
 
 const MobileBox = _glamorous2.default.div({
-  backgroundColor: '#102F6F',
+  backgroundColor: '#0DC1C2',
   paddingTop: '2rem',
   paddingBottom: '2rem',
   marginTop: '2rem'
@@ -30213,7 +30225,7 @@ const CurvedBox = () => _react2.default.createElement(
   null,
   _react2.default.createElement(
     _Base.NoRightMargin,
-    { className: 'columns is-hidden-mobile' },
+    { className: 'columns is-hidden-touch' },
     _react2.default.createElement(
       'div',
       { className: 'column is-11-tablet is-11-desktop is-8-widescreen' },
@@ -30251,7 +30263,7 @@ const CurvedBox = () => _react2.default.createElement(
   ),
   _react2.default.createElement(
     'div',
-    { className: 'is-hidden-tablet' },
+    { className: 'is-hidden-desktop' },
     _react2.default.createElement(
       _Base.MobileBox,
       { left: true },
@@ -30849,7 +30861,7 @@ const Container = _glamorous2.default.div({
   },
   '@media (max-width: 989px)': {
     position: 'relative',
-    backgroundColor: '#082F67',
+    backgroundColor: '#0DC1C2',
     transform: 'skewY(-15deg)'
   }
 });
@@ -30895,7 +30907,7 @@ const SandwichSection = () => _react2.default.createElement(
     _react2.default.createElement(
       'p',
       null,
-      'Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World'
+      'Hello World Hello World Hello World Hello World Hello World Hello World'
     ),
     _react2.default.createElement('hr', { className: 'is-invisible is-hidden-desktop' }),
     _react2.default.createElement(
@@ -30981,8 +30993,7 @@ const WhyChooseUs = () => _react2.default.createElement(
           {
             mobile: '4',
             tablet: '3',
-            desktop: '2',
-            className: 'has-text-blue' },
+            desktop: '2' },
           'Be prepared to open your business to the possibility of cryptocurrency payment'
         )
       )
@@ -31599,6 +31610,8 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 const Container = _glamorous2.default.div({
   opacity: 0,
+  height: '100%',
+  width: '100%',
   visibility: 'hidden',
   willChange: 'transform, opacity, visibility',
   transform: 'translateX(-20%)',
@@ -32481,7 +32494,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '52607' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '54481' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 

@@ -1,14 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="1760px" height="1132px" viewBox="0 0 1760 1132" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="1760px" height="1134px" viewBox="0 0 1760 1134" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
-    <title>Path</title>
+    <title>Group 2</title>
     <desc>Created with Sketch.</desc>
-    <defs></defs>
+    <defs>
+        <linearGradient x1="96.1381905%" y1="-233.252802%" x2="-43.2227623%" y2="-411.647056%" id="linearGradient-1">
+            <stop stop-color="#20E3E4" offset="0%"></stop>
+            <stop stop-color="#0B537A" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="102.774621%" y1="0%" x2="-4.25855533%" y2="134.186159%" id="linearGradient-2">
+            <stop stop-color="#20E3E4" offset="0%"></stop>
+            <stop stop-color="#0B537A" offset="100%"></stop>
+        </linearGradient>
+    </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Dark-Blue-Full" transform="translate(0.000000, -7415.000000)" fill="#102F6F" fill-rule="nonzero">
-            <g id="Footer" transform="translate(-2.000000, 7415.000000)">
+        <g id="Green-+-Solid-Purple" transform="translate(0.000000, -7226.000000)" fill-rule="nonzero">
+            <g id="Footer" transform="translate(-1.000000, 7226.000000)">
                 <g id="Footer-BG">
-                    <path d="M1.55429054,1005.2718 C82.4579075,1037.36754 194.918623,1040.00984 338.936436,1013.1987 C554.963155,972.981997 815.200295,943.59039 1016.34498,1035.41308 C1217.48967,1127.23577 1441.35426,1199.43056 1732.34329,1024.98471 C1739.40339,1020.75223 1749.28897,1014.18126 1762,1005.2718 L1762,2.27373675e-13 L1.55429054,2.27373675e-13" id="Path" transform="translate(881.777145, 565.675781) scale(1, -1) translate(-881.777145, -565.675781) "></path>
+                    <g id="Group-2">
+                        <path d="M1.55429054,91.0437912 C82.4579075,123.139526 194.918623,125.781825 338.936436,98.9706889 C554.963155,58.7539844 815.200295,29.3623772 1016.34498,121.185066 C1217.48967,213.007755 1441.35426,285.202549 1732.34329,110.7567 C1926.33597,-5.54053218 1967.71291,-30.25157 1856.47411,36.6235868 L0,36.6235868" id="Path" fill="url(#linearGradient-1)" transform="translate(958.642022, 108.561775) scale(1, -1) translate(-958.642022, -108.561775) "></path>
+                        <rect id="Rectangle-4" fill="url(#linearGradient-2)" x="0" y="160" width="1761" height="974"></rect>
+                    </g>
                 </g>
             </g>
         </g>
