@@ -29395,9 +29395,11 @@ const MainCircle = _glamorous2.default.div({
     borderRadius: '225px'
   },
   '@media (min-width: 769px) and (max-width: 989px)': {
-    height: '300px',
-    width: '300px',
-    borderRadius: '150px'
+    height: '400px',
+    width: '400px',
+    borderRadius: '200px',
+    marginRight: '2rem',
+    marginLeft: 'auto'
   },
   '@media (max-width: 768px)': {
     height: '400px',
@@ -32494,7 +32496,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '54481' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '51838' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
